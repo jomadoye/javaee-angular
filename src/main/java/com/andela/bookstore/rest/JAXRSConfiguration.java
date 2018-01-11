@@ -5,7 +5,7 @@ import javafx.application.Application;
 import javax.ws.rs.ApplicationPath;
 
 @ApplicationPath("api")
-public class JAXRSConfiguration extends Application{
+public abstract class JAXRSConfiguration extends Application{
 
 
 }
