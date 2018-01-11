@@ -18,7 +18,7 @@ public class Book {
     @Column (name = "unit_cost")
     private Float unitcost;
 
-    private String isbn
+    private String isbn;
 
     @Column (name = "publication_date")
     @Temporal(TemporalType.DATE)
